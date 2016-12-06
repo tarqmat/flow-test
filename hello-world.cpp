@@ -1,9 +1,10 @@
 #include <cstdio>
 
 int main() {
-    auto j = [](){
-        printf("Hello world!\n");
+    auto pf = [](int x){
+        printf("Hello world! :%d\n", x);
     };
 
-    j();
+    pf(108);
+    pf(42);
 }
